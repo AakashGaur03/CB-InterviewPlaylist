@@ -1,0 +1,3 @@
+Go on excalidraw.com
+Download .excalidraw File
+Three Dots-> Open -> Load From File -> Select the Particular File -> Open
