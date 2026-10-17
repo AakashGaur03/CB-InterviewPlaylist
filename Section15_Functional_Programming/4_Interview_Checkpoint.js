@@ -21,3 +21,17 @@ user.name = "Bob";
 
 const numbers = [1, 2, 3];
 const doubled = numbers.map((num) => num * 2);
+
+// Q5 Can you idetify this function
+const multiply = (a) => (b) => (c) => a * b * c;
+multiply(2)(3)(4);
+
+// Q6  Identify and Explain
+function multiply(a, b, c) {
+	returna * b * c;
+}
+const multiplyByTwo = multiply.bind(null, 2);
+
+multiplyByTwo(3, 4);
+
+// Q7 Diff Btw Currying and Partial Application
